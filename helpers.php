@@ -38,6 +38,12 @@ $upMsg = [
  * @return array
  */
 function getDbData() {
+    // if db file doesn't exist
+    if (!file_exists(DB)) {
+        // create empty db file
+        file_put_contents(DB, '');
+    }
+    
     $db = file_get_contents(DB);
     $db = base64_decode($db);
     // separate entries

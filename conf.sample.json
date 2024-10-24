@@ -1,4 +1,5 @@
 {
+    "_comment": "Rename this file to conf.json and replace the values in the field below for this script to work",
     "urls": {
 	"Google": "https://google.com",
 	"FB": "https://www.facebook.com"
