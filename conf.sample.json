@@ -1,0 +1,26 @@
+{
+    "urls": {
+	"Quotable Staging": "https://quotable-staging.shoppable.ph",
+	"Marketplace Staging": "https://marketplace-staging.shoppable.ph",
+	"PIM Staging": "https://pim-staging.shoppable.ph",
+	"OMS Staging": "https://oms-staging.shoppable.ph",
+	"CAC Staging": "https://cac-staging.shoppable.ph",
+	"RAQ Staging": "https://raq-staging.shoppable.ph",
+	"IAM Staging": "https://iam-staging.shoppable.ph",
+	"GEO Staging": "https://geo-staging.shoppable.ph",
+	"GraphQL Staging": "https://gql-staging.shoppable.ph:5555",
+	"Sellercenter Staging": "https://sellercenter-staging.shoppable.ph"
+
+    },
+    "mail": {
+	"host": "email-smtp.ap-southeast-2.amazonaws.com",
+	"user": "AKIA5GNNURNKDHU3TEUN",
+	"pass": "BJIFle9Mf8cal3ktA+PdS5UWFxnJ1/mLCLNG6nSTY04b",
+	"port": 587,
+	"sender": ["no.reply@shoppable.ph", "Tech"],
+	"to": [
+	    ["tech@shoppable.ph", "Shoppable Tech"],
+	    ["devteam@shoppable.ph", "Shoppable Dev Team"]
+	]
+    }
+}
