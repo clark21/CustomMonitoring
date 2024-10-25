@@ -160,7 +160,7 @@ function handleError($name, $url, $info = []) {
                     $url,
                     $name,
                     date('M d, Y H:i:s A', $timeDown),
-                    date('M d, Y H:i:s A', $lastCheck)
+                    date('M d, Y H:i:s A', $checkTime)
                 )
             );
         } catch (\Exception $e) {
