@@ -222,7 +222,7 @@ function handleSuccess($name, $url, $info = []) {
                     $upMsg[1],
                     $url,
                     $name,
-                    date('M d, Y H:i:s A', $timeUp),
+                    date('M d, Y H:i:s A', $downTime),
                     date('M d, Y H:i:s A', $checkTime)
                 )
             );
