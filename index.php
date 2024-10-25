@@ -26,7 +26,8 @@ foreach ($config['urls'] as $name => $url) {
 	}
 
 	$info = $monitor->getInfo();
-	if (!isset($info['http_code']) && $info['http_code'] != 200) {
+    print_r($info);
+	if (!isset($info['http_code']) || $info['http_code'] != 200) {
 		// handle error
 		handleError($name, $url);
 		sleep(1);
